@@ -18,6 +18,7 @@ export function Navbar() {
 
   const navItems = [
     { path: "/dashboard", label: "Dashboard", icon: LayoutDashboard, roles: ["admin", "planner"] },
+    { path: "/scheduling", label: "Scheduling", icon: Train, roles: ["admin", "planner"] },
     { path: "/simulation", label: "Simulation", icon: FlaskConical, roles: ["admin", "planner"] },
     { path: "/reports", label: "Reports", icon: FileBarChart, roles: ["admin", "planner"] },
     { path: "/mobile", label: "Mobile App", icon: Smartphone, roles: ["ground-staff"] },

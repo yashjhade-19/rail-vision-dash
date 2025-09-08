@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { Navbar } from "@/components/layout/Navbar";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
+import Scheduling from "./pages/Scheduling";
 import MobileApp from "./pages/MobileApp";
 import Simulation from "./pages/Simulation";
 import Reports from "./pages/Reports";
@@ -21,6 +22,7 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/scheduling" element={<Scheduling />} />
         <Route path="/mobile" element={<MobileApp />} />
         <Route path="/simulation" element={<Simulation />} />
         <Route path="/reports" element={<Reports />} />
