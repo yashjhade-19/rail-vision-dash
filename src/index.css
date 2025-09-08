@@ -6,50 +6,50 @@
 
 @layer base {
   :root {
-    /* Railway-themed color palette */
-    --background: 248 250 252;
-    --foreground: 225 29% 13%;
+    /* Professional grey/white color palette */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 225 29% 13%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 225 29% 13%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    /* Railway blue primary */
-    --primary: 217 91% 24%;
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 217 91% 35%;
+    /* Professional dark grey primary */
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 222.2 47.4% 20%;
 
-    /* Operational green secondary */
-    --secondary: 142 76% 36%;
-    --secondary-foreground: 0 0% 98%;
+    /* Neutral grey secondary */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 217 91% 95%;
-    --accent-foreground: 217 91% 24%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
 
-    /* Alert/warning colors */
+    /* Professional status colors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --warning: 43 96% 56%;
+    --warning: 25 95% 53%;
     --warning-foreground: 0 0% 0%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 24%;
+    --ring: 222.2 47.4% 11.2%;
 
     --radius: 0.75rem;
 
-    /* Railway-specific design tokens */
-    --operational: 142 76% 36%;
-    --operational-foreground: 0 0% 98%;
-    --pending: 43 96% 56%;
+    /* Professional status tokens */
+    --operational: 142 71% 45%;
+    --operational-foreground: 210 40% 98%;
+    --pending: 36 100% 50%;
     --pending-foreground: 0 0% 0%;
     --critical: 0 84.2% 60.2%;
-    --critical-foreground: 0 0% 98%;
+    --critical-foreground: 210 40% 98%;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
